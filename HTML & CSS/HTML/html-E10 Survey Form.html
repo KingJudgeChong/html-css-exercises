@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Employee Interests Survey form</h1>
+    <form>
+        <label for="name" style="margin-left: 20px; margin-right: auto;">
+            Enter your name:
+            <input type="text" id="name" name="fname" value=""> 
+        </label>
+        <br>
+        <br>
+        <label for="department">
+            Enter your department:
+            <input type="text" id="department" name="department" value=""> 
+        </label>
+        <br>
+        <br>
+        <label for="info">
+            Tell us a little about yourself:
+            <textarea name="info" id="info" cols="15" rows="5"></textarea>
+        </label>
+        <br>
+        <br>
+        <label for="exercise" style="margin-left: 88px;">Do you exercise at home?</label>
+        <input type="radio" id="yes" name="exercise1" value="Yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="exercise2" id="no">
+        <label for="no">No</label>
+        <br>
+        <br>
+        <label for="read" style="margin-left: 53px;">How do you like to read about your favorite topics?</label>
+        <br>
+        <br>
+        <input type="checkbox" name="read1" id="books" value="Books">
+        <label for="books">Books</label>
+        <input type="checkbox" name="read2" id="onlineresources" value="Online resources">
+        <label for="onlineresources">Online resources</label>
+        <input type="checkbox" name="read3" id="phoneapps" value="Phone apps">
+        <label for="phonea">Phone apps</label>
+        <input type="checkbox" name="read4" id="magazines" value="Magazines">
+        <label for="magazines">Magazines</label>
+        <br>
+        <br>
+        <label for="genre" style="margin-left: 65px;">What genre of movies do you like?</label>
+        <select name="genre" id="genre">
+        <option value="comedy">comedy</option>
+        <option value="horror">horror</option>
+        <option value="sci-fi">sci-fi</option>
+        </select>
+        <br>
+        <br>
+        <input style="margin-left: 173px;" type="submit" value="Submit form">
+    </form>
+</body>
+</html>

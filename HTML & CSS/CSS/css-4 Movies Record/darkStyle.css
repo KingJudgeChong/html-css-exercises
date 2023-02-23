@@ -1,0 +1,33 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+
+table.dark {
+	
+	background-color: rgba(28,28,28,255);
+}
+
+.theader{
+	background: rgba(28,28,28,255);
+}
+.left {
+	text-align: left;
+	font-size: 85%;
+}
+
+.below {
+	color: rgba(109,111,107,255);
+	font-size: 75%;
+}
+
+.right {
+	font-size: 85%;
+}
+
+table.dark td {
+	border-collapse: collapse;
+}
+
+.tbodypadding {
+	padding-left: 5px; padding-right: 5px;
+	color: rgba(213,224,219,255);
+}
